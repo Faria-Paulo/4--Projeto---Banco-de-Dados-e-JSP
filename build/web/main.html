@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Principal</title>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="nav">
+            <a href="index.html"><img src="img/highscore_fundo_preto.png" alt="" class="nav_logo"></a>
+            <!-- <a href="equipe.html" class="btn btn-rounded">Equipe</a> -->
+            <ul class="btn btn-rounded">
+                <li class="dropdown">Sobre
+                    <ul class="dropdown-content">
+                        <li><a href="highscore.html">HighScore Games</a></li>
+                        <li><a href="equipe.html">Equipe</a></li>
+                        <li><a href="cadastro.jsp">cadastro</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="banner banner_main" id="banner">
+            
+            <div class="banner_content">
+                <h1 class="banner_title">HIGHSCORE</h1> 
+                    <div class="banner_buttons">
+                        <button class="banner_button"><a id="game_link" href="#">Jogar</a> </button>
+                    </div>
+                    <div class="banner_discription">
+                        <p>Aproveite nosso catálogo de jogos clássicos!</p>
+                    </div>
+                    <div class="banner_fade">
+                    </div>
+            </div>
+        </div>
+        <div class="banner_fade_bottom">
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <h2>Destaques</h2>
+            <div class="row_posters">
+                <img src="img/posters/fruit_ninja3.jpg" alt="" class="row_poster" onclick="trocaBannerFruitNinja()">
+                <img src="img/posters/doodle_jump4.jpg" alt="" class="row_poster" onclick="trocaBannerDoodleJump()">
+                <img src="img/posters/flappy_bird3.jpg" alt="" class="row_poster" onclick="trocaBannerFlappyBird()">
+                <img src="img/posters/pac_man1.jpg" alt="" class="row_poster" onclick="trocaBannerPacMan()">
+                <img src="img/posters/tetris2.png" alt="" class="row_poster" onclick="trocaBannerTetris()">
+                <img src="img/posters/space_invaders2.jpg" alt="" class="row_poster" onclick="trocaBannerSpaceInvaders()">
+                <img src="img/posters/snake3.png" alt="" class="row_poster" onclick="trocaBannerSnake()">
+                <img src="img/posters/pong3.png" alt="" class="row_poster" onclick="trocaBannerPong()">                                                                
+            </div>
+        </div>
+        <div class="row">
+            <h2>Todos os jogos</h2>
+            <div class="row_posters2">
+                <img src="img/posters/black_jack1.jpg" alt="" class="row_poster" onclick="trocaBannerBlackJack()">
+                <img src="img/posters/delta2.jpeg" alt="" class="row_poster" onclick="trocaBannerDelta()">
+                <img src="img/posters/doodle_jump4.jpg" alt="" class="row_poster" onclick="trocaBannerDoodleJump()">
+                <img src="img/posters/flappy_bird3.jpg" alt="" class="row_poster" onclick="trocaBannerFlappyBird()">
+                <img src="img/posters/fruit_ninja3.jpg" alt="" class="row_poster" onclick="trocaBannerFruitNinja()">
+                <img src="img/posters/pac_man1.jpg" alt="" class="row_poster" onclick="trocaBannerPacMan()">
+                <img src="img/posters/pong3.png" alt="" class="row_poster" onclick="trocaBannerPong()">
+                <img src="img/posters/outrun1.png" alt="" class="row_poster" onclick="trocaBannerRaceMaster()">
+                <img src="img/posters/slipstream1.jpg" alt="" class="row_poster" onclick="trocaBannerRoadFighter()">
+                <img src="img/posters/snake3.png" alt="" class="row_poster" onclick="trocaBannerSnake()">
+                <img src="img/posters/space_invaders2.jpg" alt="" class="row_poster" onclick="trocaBannerSpaceInvaders()">
+                <img src="img/posters/tetris2.png" alt="" class="row_poster" onclick="trocaBannerTetris()">                                                                                 
+            </div>
+        </div>
+        <div class="row">
+            <h2>Clique e Jogue</h2>
+            <div class="row_posters3">
+                <img src="img/posters/black_jack1.jpg" alt="" class="row_poster" onclick="jogarBlackJack()">
+                <img src="img/posters/delta2.jpeg" alt="" class="row_poster" onclick="jogarDelta()">
+                <img src="img/posters/doodle_jump4.jpg" alt="" class="row_poster" onclick="jogarDoodleJump()">
+                <img src="img/posters/flappy_bird3.jpg" alt="" class="row_poster" onclick="jogarFlappyBird()">
+                <img src="img/posters/fruit_ninja3.jpg" alt="" class="row_poster" onclick="jogarFruitNinja()">
+                <img src="img/posters/pac_man1.jpg" alt="" class="row_poster" onclick="jogarPacMan()">
+                <img src="img/posters/pong3.png" alt="" class="row_poster" onclick="jogarPong()">
+                <img src="img/posters/outrun1.png" alt="" class="row_poster" onclick="jogarRaceMaster()">
+                <img src="img/posters/slipstream1.jpg" alt="" class="row_poster" onclick="jogarRoadFighter()">
+                <img src="img/posters/snake3.png" alt="" class="row_poster" onclick="jogarSnake()">
+                <img src="img/posters/space_invaders2.jpg" alt="" class="row_poster" onclick="jogarSpaceInvaders()">
+                <img src="img/posters/tetris2.png" alt="" class="row_poster" onclick="jogarTetris()">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

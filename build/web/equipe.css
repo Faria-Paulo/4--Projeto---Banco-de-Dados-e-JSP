@@ -1,0 +1,197 @@
+
+:root{
+    --primary-color:hsl(357, 92%, 47%);    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+body{
+    background-image: url("img/arcade_blue_1.jpg") ;
+    /* background-size: cover;
+    background-position: center center;
+    color:white;
+    object-fit: contain; */
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.nav_logo{
+    width: 200px;
+    object-fit: contain;
+}
+
+.nav_avatar{
+    width: 30px;
+    object-fit: contain;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5;
+}
+
+.nav_black{
+    background-color: #000;
+}
+
+h1{
+    margin: 30px;
+    padding-top: 30px;
+}
+
+h2{
+    text-align: center;
+}
+
+/*  Dropdown  */
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown-active{
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown-active{
+    background-color: white;
+    color: hsl(30, 100%, 50%);
+}
+.dropdown-active:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    font-size: 10px;
+    display: none;
+    position: absolute;    
+    background-color: var(--primary-color);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 3px; 
+    margin-left: -20px;
+}
+.dropdown-content a{
+    display: block;
+    font-size: 10px;
+} 
+
+.dropdown-content li{
+    padding:10px;
+    list-style: none;
+}
+
+
+.dropdown-content li:hover{
+    background-color: #000;
+}
+
+/* .dropdown-content a:hover{
+    background-color: hsl(30, 100%, 50%);
+} */
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+/*  Buttons  */
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    display: inline-block;
+    background: var(--primary-color);
+    color:#fff;
+    padding: 0.4rem 1.3rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0,0,0, 0.45);
+    border-radius: 2px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-rounded{
+    border-radius: 5px;
+}
+
+.btn-xl{
+    font-size: 1.5rem;
+    padding: 1.5rem 2.1rem;
+    text-transform: uppercase;
+}
+
+.btn-lg{
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+}
+
+
+/*  equipe  */
+
+.dvlp{
+    display: flex;
+    justify-content: center;
+}
+.box-name{
+    margin:60px 20px;
+    padding-top:40px;
+    height:150px;
+    width:600px;
+    background-color: hsl(357, 92%, 47%);
+    color: white;
+    border-radius: 3px;
+}
+
+.box-name li{
+    list-style: none;
+}
+
+.box-name li p{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.box-img{
+    height: 150px;
+    width: auto;
+    margin-top: 60px; 
+    border: none;
+}
+.box-img li{
+    height: 100%;
+    list-style: none;
+}
+.box-img li figure {
+    height: 100%;
+    margin-right: 10px;
+}
+.box-img li figure img{
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 3px;
+}
